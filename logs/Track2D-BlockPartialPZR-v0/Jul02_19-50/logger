@@ -1,0 +1,83 @@
+2020-07-02 19:50:46,570 : lr: 0.001
+2020-07-02 19:50:46,571 : gamma: 0.9
+2020-07-02 19:50:46,571 : tau: 1.0
+2020-07-02 19:50:46,571 : entropy: 0.01
+2020-07-02 19:50:46,571 : entropy_target: 0.2
+2020-07-02 19:50:46,571 : seed: 1
+2020-07-02 19:50:46,572 : workers: 8
+2020-07-02 19:50:46,572 : num_steps: 20
+2020-07-02 19:50:46,572 : test_eps: 100
+2020-07-02 19:50:46,572 : env: Track2D-BlockPartialPZR-v0
+2020-07-02 19:50:46,572 : env_base: Track2D-BlockPartialNav-v0
+2020-07-02 19:50:46,572 : optimizer: Adam
+2020-07-02 19:50:46,572 : amsgrad: True
+2020-07-02 19:50:46,573 : load_model_dir: None
+2020-07-02 19:50:46,573 : log_dir: logs/Track2D-BlockPartialPZR-v0/Jul02_19-50
+2020-07-02 19:50:46,573 : network: tat-maze-lstm
+2020-07-02 19:50:46,573 : aux: reward
+2020-07-02 19:50:46,573 : gpu_ids: [-1]
+2020-07-02 19:50:46,573 : obs: img
+2020-07-02 19:50:46,573 : single: False
+2020-07-02 19:50:46,574 : gray: False
+2020-07-02 19:50:46,574 : crop: False
+2020-07-02 19:50:46,574 : inv: False
+2020-07-02 19:50:46,574 : rescale: False
+2020-07-02 19:50:46,574 : render: False
+2020-07-02 19:50:46,574 : shared_optimizer: True
+2020-07-02 19:50:46,574 : split: True
+2020-07-02 19:50:46,575 : train_mode: -1
+2020-07-02 19:50:46,575 : stack_frames: 1
+2020-07-02 19:50:46,575 : input_size: 80
+2020-07-02 19:50:46,575 : rnn_out: 128
+2020-07-02 19:50:46,575 : sleep_time: 0
+2020-07-02 19:50:46,575 : max_step: 150000
+2020-07-02 19:50:46,575 : init_step: -1
+2020-07-02 19:50:56,101 : Time 00h 00m 09s, ave eps reward [-9.34504497  9.34504497], ave eps length 19.86, reward step [-0.47054607  0.47054607]
+2020-07-02 19:51:05,126 : Time 00h 00m 18s, ave eps reward [-10.52503272  10.52503272], ave eps length 18.73, reward step [-0.56193447  0.56193447]
+2020-07-02 19:51:13,480 : Time 00h 00m 26s, ave eps reward [-9.78058782  9.78058782], ave eps length 19.14, reward step [-0.5110025  0.5110025]
+2020-07-02 19:51:22,467 : Time 00h 00m 35s, ave eps reward [-9.7709767  9.7709767], ave eps length 21.49, reward step [-0.45467551  0.45467551]
+2020-07-02 19:51:31,737 : Time 00h 00m 45s, ave eps reward [-10.36384521  10.36384521], ave eps length 21.0, reward step [-0.49351644  0.49351644]
+2020-07-02 19:51:41,936 : Time 00h 00m 55s, ave eps reward [-8.47544617  8.47544617], ave eps length 24.96, reward step [-0.33956114  0.33956114]
+2020-07-02 19:52:02,060 : Time 00h 01m 15s, ave eps reward [ 6.52023645 -6.52023645], ave eps length 63.67, reward step [ 0.10240673 -0.10240673]
+2020-07-02 19:53:04,211 : Time 00h 02m 17s, ave eps reward [ 143.29563071 -143.29563071], ave eps length 251.48, reward step [ 0.56980925 -0.56980925]
+2020-07-02 19:54:32,295 : Time 00h 03m 45s, ave eps reward [ 223.98353133 -223.98353133], ave eps length 357.81, reward step [ 0.62598455 -0.62598455]
+2020-07-02 19:56:06,155 : Time 00h 05m 19s, ave eps reward [ 241.86579105 -241.86579105], ave eps length 389.06, reward step [ 0.62166707 -0.62166707]
+2020-07-02 19:57:43,312 : Time 00h 06m 56s, ave eps reward [ 250.53801807 -250.53801807], ave eps length 401.84, reward step [ 0.62347705 -0.62347705]
+2020-07-02 19:59:32,351 : Time 00h 08m 45s, ave eps reward [ 277.51741416 -277.51741416], ave eps length 443.1, reward step [ 0.62630877 -0.62630877]
+2020-07-02 20:01:07,906 : Time 00h 10m 21s, ave eps reward [ 239.70024256 -239.70024256], ave eps length 393.69, reward step [ 0.6088553 -0.6088553]
+2020-07-02 20:02:55,317 : Time 00h 12m 08s, ave eps reward [ 267.214737 -267.214737], ave eps length 431.97, reward step [ 0.61859559 -0.61859559]
+2020-07-02 20:04:47,025 : Time 00h 14m 00s, ave eps reward [ 285.31870681 -285.31870681], ave eps length 456.99, reward step [ 0.62434344 -0.62434344]
+2020-07-02 20:06:45,150 : Time 00h 15m 58s, ave eps reward [ 298.91740418 -298.91740418], ave eps length 478.37, reward step [ 0.62486653 -0.62486653]
+2020-07-02 20:08:34,969 : Time 00h 17m 48s, ave eps reward [ 275.06585849 -275.06585849], ave eps length 440.4, reward step [ 0.62458188 -0.62458188]
+2020-07-02 20:10:28,710 : Time 00h 19m 42s, ave eps reward [ 291.71195367 -291.71195367], ave eps length 467.09, reward step [ 0.62453051 -0.62453051]
+2020-07-02 20:12:28,359 : Time 00h 21m 41s, ave eps reward [ 314.60648944 -314.60648944], ave eps length 500.0, reward step [ 0.62921298 -0.62921298]
+2020-07-02 20:14:28,932 : Time 00h 23m 42s, ave eps reward [ 310.34513715 -310.34513715], ave eps length 496.29, reward step [ 0.62533022 -0.62533022]
+2020-07-02 20:16:28,157 : Time 00h 25m 41s, ave eps reward [ 306.30648879 -306.30648879], ave eps length 488.61, reward step [ 0.62689361 -0.62689361]
+2020-07-02 20:18:28,670 : Time 00h 27m 42s, ave eps reward [ 317.75032445 -317.75032445], ave eps length 500.0, reward step [ 0.63550065 -0.63550065]
+2020-07-02 20:20:27,556 : Time 00h 29m 40s, ave eps reward [ 319.49814191 -319.49814191], ave eps length 500.0, reward step [ 0.63899628 -0.63899628]
+2020-07-02 20:22:27,306 : Time 00h 31m 40s, ave eps reward [ 316.99209766 -316.99209766], ave eps length 500.0, reward step [ 0.6339842 -0.6339842]
+2020-07-02 20:24:27,492 : Time 00h 33m 40s, ave eps reward [ 317.32837526 -317.32837526], ave eps length 499.31, reward step [ 0.63553379 -0.63553379]
+2020-07-02 20:26:29,501 : Time 00h 35m 42s, ave eps reward [ 317.14345759 -317.14345759], ave eps length 496.41, reward step [ 0.63887403 -0.63887403]
+2020-07-02 20:28:25,884 : Time 00h 37m 39s, ave eps reward [ 305.96057702 -305.96057702], ave eps length 483.37, reward step [ 0.63297386 -0.63297386]
+2020-07-02 20:30:26,014 : Time 00h 39m 39s, ave eps reward [ 320.95039997 -320.95039997], ave eps length 500.0, reward step [ 0.6419008 -0.6419008]
+2020-07-02 20:32:25,140 : Time 00h 41m 38s, ave eps reward [ 305.34910936 -305.34910936], ave eps length 496.78, reward step [ 0.61465661 -0.61465661]
+2020-07-02 20:34:24,798 : Time 00h 43m 38s, ave eps reward [ 318.41422018 -318.41422018], ave eps length 495.42, reward step [ 0.64271572 -0.64271572]
+2020-07-02 20:36:26,011 : Time 00h 45m 39s, ave eps reward [ 315.07286558 -315.07286558], ave eps length 495.33, reward step [ 0.63608678 -0.63608678]
+2020-07-02 20:38:27,467 : Time 00h 47m 40s, ave eps reward [ 315.57307745 -315.57307745], ave eps length 495.16, reward step [ 0.63731537 -0.63731537]
+2020-07-02 20:40:29,730 : Time 00h 49m 43s, ave eps reward [ 321.34514071 -321.34514071], ave eps length 500.0, reward step [ 0.64269028 -0.64269028]
+2020-07-02 20:42:27,675 : Time 00h 51m 41s, ave eps reward [ 317.92330682 -317.92330682], ave eps length 495.19, reward step [ 0.64202287 -0.64202287]
+2020-07-02 20:44:33,554 : Time 00h 53m 46s, ave eps reward [ 318.87770629 -318.87770629], ave eps length 500.0, reward step [ 0.63775541 -0.63775541]
+2020-07-02 20:46:34,252 : Time 00h 55m 47s, ave eps reward [ 319.73401843 -319.73401843], ave eps length 496.1, reward step [ 0.6444951 -0.6444951]
+2020-07-02 20:48:36,894 : Time 00h 57m 50s, ave eps reward [ 305.85264524 -305.85264524], ave eps length 487.21, reward step [ 0.62776348 -0.62776348]
+2020-07-02 20:50:37,014 : Time 00h 59m 50s, ave eps reward [ 320.39532374 -320.39532374], ave eps length 495.18, reward step [ 0.647028 -0.647028]
+2020-07-02 20:52:33,315 : Time 01h 01m 46s, ave eps reward [ 305.29542564 -305.29542564], ave eps length 479.58, reward step [ 0.63658915 -0.63658915]
+2020-07-02 20:54:27,949 : Time 01h 03m 41s, ave eps reward [ 307.22282511 -307.22282511], ave eps length 480.25, reward step [ 0.63971437 -0.63971437]
+2020-07-02 20:56:28,282 : Time 01h 05m 41s, ave eps reward [ 310.68267265 -310.68267265], ave eps length 493.41, reward step [ 0.62966432 -0.62966432]
+2020-07-02 20:58:25,870 : Time 01h 07m 39s, ave eps reward [ 305.75613273 -305.75613273], ave eps length 487.9, reward step [ 0.62667787 -0.62667787]
+2020-07-02 21:00:35,235 : Time 01h 09m 48s, ave eps reward [ 320.61412868 -320.61412868], ave eps length 500.0, reward step [ 0.64122826 -0.64122826]
+2020-07-02 21:02:37,844 : Time 01h 11m 51s, ave eps reward [ 316.70674082 -316.70674082], ave eps length 496.06, reward step [ 0.63844442 -0.63844442]
+2020-07-02 21:04:40,144 : Time 01h 13m 53s, ave eps reward [ 314.02134923 -314.02134923], ave eps length 500.0, reward step [ 0.6280427 -0.6280427]
+2020-07-02 21:06:37,225 : Time 01h 15m 50s, ave eps reward [ 300.53691176 -300.53691176], ave eps length 474.18, reward step [ 0.63380343 -0.63380343]
+2020-07-02 21:08:36,681 : Time 01h 17m 50s, ave eps reward [ 310.61997648 -310.61997648], ave eps length 483.59, reward step [ 0.64232093 -0.64232093]
+2020-07-02 21:10:42,243 : Time 01h 19m 55s, ave eps reward [ 322.98624099 -322.98624099], ave eps length 500.0, reward step [ 0.64597248 -0.64597248]
+2020-07-02 21:12:44,784 : Time 01h 21m 58s, ave eps reward [ 320.16787832 -320.16787832], ave eps length 500.0, reward step [ 0.64033576 -0.64033576]

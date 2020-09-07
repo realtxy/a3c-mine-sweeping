@@ -1,0 +1,23 @@
+2020-07-04 18:27:34,205 : env: Track2D-BlockPartialNav-v0
+2020-07-04 18:27:34,205 : num_episodes: 100
+2020-07-04 18:27:34,206 : load_model_dir: None
+2020-07-04 18:27:34,206 : load_tracker: /home/txy/myprojects/mine/active_tracking_rl-AD-VAT/logs/Track2D-BlockPartialPZR-v0/Jul02_19-50/tracker-best.dat
+2020-07-04 18:27:34,206 : load_target: None
+2020-07-04 18:27:34,206 : log_dir: logs/
+2020-07-04 18:27:34,206 : csv: None
+2020-07-04 18:27:34,206 : render: False
+2020-07-04 18:27:34,206 : network: tat-maze-lstm
+2020-07-04 18:27:34,206 : stack_frames: 1
+2020-07-04 18:27:34,206 : seed: 1
+2020-07-04 18:27:34,206 : gpu_id: -1
+2020-07-04 18:27:34,206 : obs: img
+2020-07-04 18:27:34,206 : single: False
+2020-07-04 18:27:34,206 : clip_reward: False
+2020-07-04 18:27:34,206 : gray: False
+2020-07-04 18:27:34,206 : crop: False
+2020-07-04 18:27:34,206 : inv: False
+2020-07-04 18:27:34,206 : flip: False
+2020-07-04 18:27:34,207 : rescale: False
+2020-07-04 18:27:34,207 : input_size: 80
+2020-07-04 18:27:34,207 : rnn_out: 128
+2020-07-04 18:29:19,076 : El, 500, R, [ 318.40608469 -318.40608469], R_mean: [ 315.8322086 -315.8322086], R_std: [42.41030151 42.41030151], EL_mean: 495.24, EL_std 47.36, R_step: [ 0.63773566 -0.63773566], S_rate: 0.99
